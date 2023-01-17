@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <LINK href="../css/styleq.css" rel="stylesheet">
+       
+      <title>Quiz</title>
+   </head>
+   <body>
+   <header>
+    <h1>Welcome to My Personal Website</h1>
+  </header>
+  <nav class="nav">
+    <ul>
+      <li><a class="btn" href="../index.html">Accueil</a></li>
+      <li><a class="btn" href="../pages/parcours.html">Parcours</a></li>
+      <li><a class="btn" href="../pages/Compétences.html">Compétences</a></li>
+      <li><a class="btn" href="../pages/stages.html">Stages</a></li>
+      <li><a class="btn" href="../pages/quizz.html">Quiz</a></li>
+      <li><a class="btn" href="../pages/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+   
+    <main>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 class="titre" id="question">Question Text</h2>
+          <ul class="ul">
+            <li class="li">
+              <input type="radio" name="answer" id="a" class="answer">
+              <label class="label" for="a" id="a_text">Answer</label>
+            </li>
+            <li class="li">
+              <input type="radio" name="answer" id="b" class="answer">
+              <label class="label" for="b" id="b_text">Answer</label>
+            </li>
+            <li class="li">
+              <input type="radio" name="answer" id="c" class="answer">
+              <label class="label"  for="c" id="c_text">Answer</label>
+            </li>
+            <li class="li">
+              <input type="radio" name="answer" id="d" class="answer">
+              <label class="label" for="d" id="d_text">Answer</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Submit</button>
+      </div>
+      <script src="../js/quiz.js"></script>
+         
+       </main>
+
+   </body>
+</html>
